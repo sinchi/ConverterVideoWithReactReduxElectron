@@ -6,7 +6,7 @@ import VideoSelectScreen from './VideoSelectScreen';
 import { setFormat, removeVideo, showInFolder } from '../actions';
 
 class ConvertScreen extends Component {
-  render() {
+  render() {    
     return (
       <div className="container">
         <VideoSelectScreen small />
